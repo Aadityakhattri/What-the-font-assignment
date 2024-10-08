@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient( #000000, #434343);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #120f0f;
+    border-radius: 20px;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: #FF4C4C;
+}
+
+.artist {
+    font-size: 1.5em;
+    color: #B3B3B3;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border: 3px solid #1c1313;
+    border-radius: 10px;
+}
+
+
+main {
+    width: 70%;
+    padding: 20px;
+    background: #353333;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+main:hover {
+    background-color: #282323;
+}
+
+.lyrics-heading {
+    text-align: center;
+    font-size: 2em;
+    color: #d1e3e8;
+    border-bottom: 2px solid #d1e3e8;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+/* Emotional Expressions */
+.sad {
+    color: #ed8181;
+    font-style: italic; /* Italic style for sad expressions */
+}
+
+.happy {
+    color: #90EE90;
+    font-family: 'Lobster', cursive;/* Custom font for happy expressions */
+}
+
+.yelling {
+    color: #e6d680; 
+    font-weight: 700; /* Bold weight for emphasis */
+    text-transform: uppercase; /* Uppercase letters for shouting effect */
+}
+
+footer {
+    text-align: center; /* Center-align footer content */
+    margin: 30px 0; /* Space around footer */
+}
+
+footer a {
+    color: #00c8ff;
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    color: #7d9edf; /* Change link color on hover */
+
+}
+
+
+
+
+
